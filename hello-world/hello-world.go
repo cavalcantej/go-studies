@@ -24,3 +24,7 @@ func foo() {
 func bar() {
 	fmt.Println("and we exited")
 }
+
+/*
+Palavra chave var
+*/
