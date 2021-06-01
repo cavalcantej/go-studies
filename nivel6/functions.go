@@ -12,12 +12,10 @@ func (p pessoa) oibomdia(){
 }
 
 func soma(x ...int) int {
-	
 	soma := 0
 	for _, v := range x {
 		soma += v
 	}
-
 	return soma
 }
 

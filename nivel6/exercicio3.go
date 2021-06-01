@@ -6,12 +6,15 @@ func retornaint() int {
 	return 10
 }
 
-func retornaintstr() (int, string){
-	return 10, "olá"
+func imprime() {
+	fmt.Println("Olá mundo")
 }
 
 func main(){
-	fmt.Println(retornaintstr())
+	defer imprime()
+	
 	fmt.Println(retornaint())
+
+
 
 }
